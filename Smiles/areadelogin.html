@@ -1,0 +1,51 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+
+    <div class="metade"><img src="capalogin.png" class="metade" ></div>
+    <div class="acessar">Acesse sua Conta</div>
+        <div class="identificação"> CPF</div>
+        <div id="caixadelogin"></div> 
+            <div><input type="text" 
+                placeholder="Ex.: 000.000.000-00" 
+                id="login" 
+                onmouseover='borda()' 
+                onmouseleave="remove()"
+                onkeydown= "digitou(event)"
+                minlength="11"
+                maxlength="11">
+                 
+        </div>
+        <div id= "continuar"  
+             onkeydown= "digitou()" 
+             onmouseover="botaocontinuar()" 
+             onmouseleave="tirar()"> 
+         <div id="letracontinuar" >CONTINUAR</div>
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="login.js"></script>
+    
+</body>
+</html>
